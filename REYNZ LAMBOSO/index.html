@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reynz Daryl | Portfolio</title>
+  <meta name="description" content="Portfolio of Reynz Daryl, a BS Computer Engineering student learning web development with HTML, CSS, and JavaScript.">
+  <meta name="theme-color" content="#080d1a">
+  <meta property="og:title" content="Reynz Daryl | Portfolio">
+  <meta property="og:description" content="BS Computer Engineering student and aspiring web developer. Try my calculator and to-do list projects.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E💻%3C/text%3E%3C/svg%3E">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <a class="skip-link" href="#about">Skip to content</a>
+
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- NAVIGATION -->
+  <header>
+    <nav class="container">
+      <a href="#home" class="logo">
+        <img src="ff.png" alt="Reynz Daryl logo" onerror="this.style.display='none'">
+        <span>My Portfolio</span>
+      </a>
+
+      <div class="nav-actions">
+        <button
+          class="theme-btn"
+          id="themeBtn"
+          type="button"
+          aria-label="Switch to light theme"
+        >☼</button>
+
+        <button
+          class="menu-btn"
+          id="menuBtn"
+          type="button"
+          aria-expanded="false"
+          aria-controls="navLinks"
+        >☰ Menu</button>
+      </div>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#interests">Interests</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HOME SECTION -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+
+        <div class="reveal">
+          <span class="badge">
+            <span class="status-dot"></span>
+            BSCpE Student · Learning Every Day
+          </span>
+
+          <h1>
+            Hello, I'm<br>
+            <span class="accent">Reynz Daryl.</span>
+          </h1>
+
+          <p class="role-line" id="roleLine" aria-label="Aspiring Web Developer"></p>
+
+          <p class="hero-copy">
+            I'm a friendly, happy, and understanding person studying
+            Computer Engineering at Colegio de Montalban. I'm learning
+            web development and enjoy creating websites while discovering
+            new things.
+          </p>
+
+          <div class="hero-stats">
+            <div>
+              <strong>03</strong>
+              <span>Core Web Skills</span>
+            </div>
+
+            <div>
+              <strong>01</strong>
+              <span>Career Goal</span>
+            </div>
+
+            <div>
+              <strong>∞</strong>
+              <span>Things to Learn</span>
+            </div>
+          </div>
+
+          <div class="buttons">
+            <a href="#projects" class="btn btn-primary">
+              Explore My Projects ↗
+            </a>
+
+            <a href="#contact" class="btn btn-outline">
+              Contact Me
+            </a>
+          </div>
+
+          <div class="socials">
+            <a
+              class="social-link instagram"
+              href="https://www.instagram.com/renzwrld0_0/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >◎ Instagram ↗</a>
+
+            <a
+              class="social-link facebook"
+              href="https://www.facebook.com/profile.php?id=61589382291784"
+              target="_blank"
+              rel="noopener noreferrer"
+            >f Facebook ↗</a>
+          </div>
+        </div>
+
+        <div class="reveal">
+          <div class="profile-box">
+            <img src="aa.png" alt="Photo of Reynz Daryl" onerror="this.parentElement.textContent='👨‍💻';this.parentElement.style.fontSize='7rem'">
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about">
+      <div class="container">
+
+        <div class="section-heading reveal">
+          <span class="eyebrow">Get to know me</span>
+          <h2>About <span class="accent">Me</span></h2>
+          <p>A little about my personality, studies, and goals.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="panel reveal">
+            <h3>My Programming Motto</h3>
+            <p>
+              "Code a little, debug a little, and keep learning.
+              I don't need to know everything right now.
+              I just need to keep improving and make my code work."
+            </p>
+          </div>
+
+          <div class="about-copy reveal">
+            <p>
+              Hi! I'm Reynz Daryl, a BS Computer Engineering student at
+              COLEGIO DE MONTALBAN (CDM). I'm a friendly, funny, and
+              understanding person.
+            </p>
+
+            <p>
+              In my free time, I enjoy playing games, basketball, and
+              listening to music. Recently, I've also started learning
+              guitar. I'm still a beginner, but I enjoy practicing.
+            </p>
+
+            <p>
+              My career goal is to become a web developer. I'm currently
+              learning HTML, CSS, and JavaScript to build useful,
+              attractive, and responsive websites.
+            </p>
+
+            <ul class="details">
+              <li>🎓 <strong>Course:</strong> BS Computer Engineering</li>
+              <li>🏫 <strong>School:</strong> COLEGIO DE MONTALBAN</li>
+              <li>🎯 <strong>Career Goal:</strong> Web Developer</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- INTERESTS SECTION -->
+    <section id="interests">
+      <div class="container">
+
+        <div class="section-heading reveal">
+          <span class="eyebrow">What I enjoy</span>
+          <h2>My <span class="accent">Interests</span></h2>
+          <p>Things I enjoy doing in my free time.</p>
+        </div>
+
+        <div class="grid-3">
+          <article class="card reveal">
+            <div class="card-icon">🎮</div>
+            <h3>Playing Games</h3>
+            <p>I enjoy gaming as a fun way to relax and challenge myself.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-icon">🏀</div>
+            <h3>Basketball</h3>
+            <p>Basketball helps me stay active and enjoy playing with others.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-icon">🎧</div>
+            <h3>Listening to Music</h3>
+            <p>Music helps me relax and adds a soundtrack to my day.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-icon">🎸</div>
+            <h3>Learning Guitar</h3>
+            <p>I'm a beginner at guitar and enjoy learning one step at a time.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-icon">💻</div>
+            <h3>Web Development</h3>
+            <p>I'm learning how HTML, CSS, and JavaScript create websites.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-icon">🌱</div>
+            <h3>Learning New Things</h3>
+            <p>I enjoy exploring new interests and improving over time.</p>
+          </article>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills">
+      <div class="container">
+
+        <div class="section-heading reveal">
+          <span class="eyebrow">My abilities</span>
+          <h2>My <span class="accent">Skills</span></h2>
+          <p>My current web development learning areas.</p>
+        </div>
+
+        <div class="grid-3">
+          <article class="card reveal">
+            <h3>HTML</h3>
+            <span class="skill-tag">Currently Learning</span><span class="skill-percent">40%</span>
+            <p>Building the structure and content of web pages.</p>
+
+            <div class="skill-track">
+              <div class="skill-fill" data-width="40%"></div>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <h3>CSS</h3>
+            <span class="skill-tag">Currently Learning</span><span class="skill-percent">40%</span>
+            <p>Styling websites with layouts, colors, and responsive design.</p>
+
+            <div class="skill-track">
+              <div class="skill-fill" data-width="40%"></div>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <h3>JavaScript</h3>
+            <span class="skill-tag">Currently Learning</span><span class="skill-percent">40%</span>
+            <p>Practicing programming basics and interactive features.</p>
+
+            <div class="skill-track">
+              <div class="skill-fill" data-width="40%"></div>
+            </div>
+          </article>
+        </div>
+
+        <p style="margin-top: 15px; font-size: .85rem;">
+          These skill bars are visual estimates of my learning progress.
+          I will update them as I learn more.
+        </p>
+
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects">
+      <div class="container">
+
+        <div class="section-heading reveal">
+          <span class="eyebrow">My work</span>
+          <h2>My <span class="accent">Projects</span></h2>
+          <p>A few things I have built or am currently developing.</p>
+        </div>
+
+        <div class="project-filters reveal">
+          <button class="filter-btn active" data-filter="all" aria-pressed="true">
+            All
+          </button>
+
+          <button class="filter-btn" data-filter="web" aria-pressed="false">
+            Web Development
+          </button>
+
+          <button class="filter-btn" data-filter="javascript" aria-pressed="false">
+            JavaScript
+          </button>
+
+        </div>
+
+        <div class="grid-3 project-grid">
+
+          <article class="card project-card reveal" data-category="web">
+            <div class="project-visual">🌐</div>
+
+            <div class="project-content">
+              <span class="project-tag">Web Development</span>
+              <h3>Personal Portfolio</h3>
+
+              <p>
+                A website introducing me, my interests, skills,
+                education, and contact details.
+              </p>
+
+              <a class="project-link" href="#home">
+                View This Website ↑
+              </a>
+            </div>
+          </article>
+
+          <article class="card project-card reveal" data-category="javascript">
+            <div class="project-visual">🧮</div>
+
+            <div class="project-content">
+              <span class="project-tag">JavaScript Project</span>
+              <h3>Calculator</h3>
+
+              <p>
+                My first completed project. It helped me practice
+                JavaScript and basic programming logic. Try it live right here!
+              </p>
+
+              <button class="project-link" type="button" data-open="calcModal">
+                Try the Calculator ↗
+              </button>
+            </div>
+          </article>
+
+          <article class="card project-card reveal" data-category="javascript">
+            <div class="project-visual">✅</div>
+
+            <div class="project-content">
+              <span class="project-tag">JavaScript Project</span>
+              <h3>Task Planner</h3>
+
+              <p>
+                A to-do list to organize school work and practice time.
+                Tasks are saved in your browser, so they stay after a refresh.
+              </p>
+
+              <button class="project-link" type="button" data-open="todoModal">
+                Open Task Planner ↗
+              </button>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+    <section id="education">
+      <div class="container">
+
+        <div class="section-heading reveal">
+          <span class="eyebrow">My background</span>
+          <h2><span class="accent">Education</span></h2>
+          <p>My current education and learning focus.</p>
+        </div>
+
+        <div class="grid-3">
+          <article class="card reveal">
+            <div class="card-icon">🎓</div>
+            <h3>BS Computer Engineering</h3>
+            <p>COLEGIO DE MONTALBAN (CDM)</p>
+            <p>Currently studying.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-icon">💻</div>
+            <h3>Web Development</h3>
+            <p>HTML, CSS, and JavaScript.</p>
+            <p>Learning and practicing through projects.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-icon">🎯</div>
+            <h3>Career Goal</h3>
+            <p>Become a web developer.</p>
+            <p>Building useful, attractive, responsive websites.</p>
+          </article>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact">
+      <div class="container">
+
+        <div class="section-heading reveal">
+          <span class="eyebrow">Say hello</span>
+          <h2>Get in <span class="accent">Touch</span></h2>
+          <p>Contact me by email or social media.</p>
+        </div>
+
+        <div class="contact-grid">
+
+          <div class="panel reveal">
+            <h3>Contact Information</h3>
+            <p>Feel free to reach out if you want to connect.</p>
+
+            <div class="contact-item">
+              <small>Email</small>
+              <a href="reynzdaryl6@gmail.com">
+                reynzdaryl6@gmail.com ↗
+              </a>
+            </div>
+
+            <div class="contact-item">
+              <small>Instagram</small>
+              <a
+                href="https://www.instagram.com/renzwrld0_0/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >@renzwrld0_0 ↗</a>
+            </div>
+
+            <div class="contact-item">
+              <small>Facebook</small>
+              <a
+                href="https://www.facebook.com/profile.php?id=61589382291784"
+                target="_blank"
+                rel="noopener noreferrer"
+              >Visit My Facebook ↗</a>
+            </div>
+          </div>
+
+          <form class="panel" id="contactForm">
+            <h3>Send Me a Message</h3>
+
+            <div class="form-group">
+              <label for="senderName">Your name</label>
+              <input
+                id="senderName"
+                type="text"
+                required
+                placeholder="Enter your name"
+              >
+            </div>
+
+            <div class="form-group">
+              <label for="senderEmail">Your email</label>
+              <input
+                id="senderEmail"
+                type="email"
+                required
+                placeholder="you@example.com"
+              >
+            </div>
+
+            <div class="form-group">
+              <label for="senderMessage">Message</label>
+              <textarea
+                id="senderMessage"
+                required
+                placeholder="Write your message..."
+              ></textarea>
+            </div>
+
+            <input
+              type="text"
+              id="website"
+              tabindex="-1"
+              autocomplete="off"
+              aria-hidden="true"
+              style="position:absolute;left:-9999px;opacity:0;height:0;width:0;"
+            >
+
+            <button class="btn btn-primary" type="submit">
+              Send Message ↗
+            </button>
+
+            <p class="form-note" id="formNote">
+              Your message goes straight to my Gmail inbox.
+            </p>
+          </form>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- CALCULATOR MODAL -->
+  <div class="modal" id="calcModal" role="dialog" aria-modal="true" aria-labelledby="calcTitle">
+    <div class="modal-box">
+      <div class="modal-head">
+        <h3 id="calcTitle">🧮 Calculator</h3>
+        <button class="close-btn" type="button" data-close aria-label="Close calculator">✕</button>
+      </div>
+
+      <div class="calc-screen" aria-live="polite">
+        <div class="calc-history" id="calcHistory"></div>
+        <div class="calc-display" id="calcDisplay">0</div>
+      </div>
+
+      <div class="calc-keys" id="calcKeys">
+        <button class="fn" data-act="clear">AC</button>
+        <button class="fn" data-act="back" aria-label="Backspace">⌫</button>
+        <button class="op" data-act="percent">%</button>
+        <button class="op" data-op="÷">÷</button>
+
+        <button data-num="7">7</button>
+        <button data-num="8">8</button>
+        <button data-num="9">9</button>
+        <button class="op" data-op="×">×</button>
+
+        <button data-num="4">4</button>
+        <button data-num="5">5</button>
+        <button data-num="6">6</button>
+        <button class="op" data-op="−">−</button>
+
+        <button data-num="1">1</button>
+        <button data-num="2">2</button>
+        <button data-num="3">3</button>
+        <button class="op" data-op="+">+</button>
+
+        <button data-act="sign">±</button>
+        <button data-num="0">0</button>
+        <button data-act="dot">.</button>
+        <button class="eq" data-act="equals">=</button>
+      </div>
+      <p class="modal-hint">Keyboard works too: numbers, + − * /, Enter, Backspace, Esc.</p>
+    </div>
+  </div>
+
+  <!-- TASK PLANNER MODAL -->
+  <div class="modal" id="todoModal" role="dialog" aria-modal="true" aria-labelledby="todoTitle">
+    <div class="modal-box">
+      <div class="modal-head">
+        <h3 id="todoTitle">✅ Task Planner</h3>
+        <button class="close-btn" type="button" data-close aria-label="Close task planner">✕</button>
+      </div>
+
+      <form class="todo-form" id="todoForm">
+        <input id="todoInput" type="text" maxlength="80" placeholder="Add a task (e.g. Practice guitar)" aria-label="New task" required>
+        <button class="btn btn-primary" type="submit">Add</button>
+      </form>
+
+      <div class="todo-meta">
+        <span id="todoCount">0 of 0 done</span>
+        <button class="todo-clear" id="todoClear" type="button">Clear completed</button>
+      </div>
+      <div class="todo-bar"><div id="todoBar"></div></div>
+
+      <ul class="todo-list" id="todoList"></ul>
+      <p class="modal-hint">Saved in this browser only.</p>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      © <span id="year"></span> Reynz Daryl · Made with HTML, CSS &amp; JavaScript
+    </div>
+  </footer>
+
+  <button class="back-top" id="backTop" aria-label="Back to top">
+    ↑
+  </button>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
